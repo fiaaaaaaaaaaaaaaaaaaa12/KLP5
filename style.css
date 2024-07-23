@@ -1,0 +1,97 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+header .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  margin: 0 1rem;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+header .sign-in {
+  background: #555;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.banner {
+  position: relative;
+  background-image: url("98b0c84e-a93b-47c3-8925-fd6d3cb80f70.jpeg");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 4rem 2rem;
+  color: white;
+}
+
+.banner h1 {
+  position: relative;
+  font-size: 2rem;
+  background: rgba(0, 0, 0, 0.5);
+  display: inline-block;
+  padding: 0.5rem 1rem;
+}
+
+.facilities,
+.history,
+.gallery,
+.reviews,
+.contact {
+  padding: 2rem;
+}
+
+.facility-grid,
+.gallery-grid,
+.review-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.facility,
+.photo,
+.review {
+  background: #ddd;
+  padding: 1rem;
+  text-align: center;
+  flex: 1 1 calc(20% - 2rem);
+  box-sizing: border-box;
+  min-width: 150px;
+}
+
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+}
